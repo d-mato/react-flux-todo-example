@@ -1,0 +1,18 @@
+{
+  "name": "react-flux-todo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -t [ babelify --presets [ es2015 react ] ] -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
